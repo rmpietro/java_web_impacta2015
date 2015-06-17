@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h3>Cadastro de Usuário</h3>
+	<form method="post" action="capturadados">
+		Nome: <br /> 
+		<input type="Text" name="nome" size="40"> <br />
+
+		E-mail: <br /> 
+		<input type="Text" name="email" size="40">
+
+		<p>
+			Deseja receber nossa newsletter? <br /> 
+			<input type="Radio"	name="newsletter" value="sim">Sim 
+			<input type="Radio"	name="newsletter" value="nao">Não
+		</p>
+		<p>
+			Informe qual a sua posição na empresa em que trabalha: <br /> 
+			<select name="posicao">
+				<option value="CEO">CEO</option>
+				<option value="Diretor Executivo">Diretor Executivo</option>
+				<option value="Gerente de TI">Gerente de TI</option>
+				<option value="Analista de Produção">Analista de Produção</option>
+				<option value="Arquiteto de Software">Arquiteto de Software</option>
+				<option value="Desenvolvedor">Desenvolvedor</option>
+			</select>
+		</p>
+		<p>
+			Deixe suas impressões sobre nosso serviço: <br />
+			<textarea name="impressoes" cols="28" rows="5"></textarea>
+		</p>
+		<p>
+			<input type="Submit" value="Enviar "> 
+			<input type="Reset" value="Limpar Dados">
+		</p>
+	</form>
+</body>
+</html>
+
+
